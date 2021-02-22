@@ -42,7 +42,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum sem iaculis lacinia luctus. Proin nec dui mollis, mattis odio vel, posuere nibh. Suspendisse volutpat mauris eget mauris mollis, ut facilisis lectus aliquam. Vestibulum feugiat turpis sit amet tellus mollis mollis eget quis quam. Curabitur venenatis magna sed mauris mattis, id convallis neque tempus. Suspendisse vestibulum augue sem, a posuere diam laoreet et. Mauris diam nulla, consequat non tempus sit amet, vehicula eget risus. Ut eu orci eu nulla aliquet viverra.s',
+        helpText: 'if u came across any problem please report at : omarksibati2@gmail.com',
         title: 'Help',
         name: 'Omar Ksibati',
         active_help:true        
