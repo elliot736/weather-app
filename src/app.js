@@ -26,22 +26,26 @@ hbs.registerPartials(partialsPath)
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
-        name: 'Elliot'
+        name: 'Omar Ksibati',
+        active_index:true
+
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Elliot'
+        name: 'Omar Ksibati',
+        active_about:true
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'This is some helpful text.',
+        helpText: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum sem iaculis lacinia luctus. Proin nec dui mollis, mattis odio vel, posuere nibh. Suspendisse volutpat mauris eget mauris mollis, ut facilisis lectus aliquam. Vestibulum feugiat turpis sit amet tellus mollis mollis eget quis quam. Curabitur venenatis magna sed mauris mattis, id convallis neque tempus. Suspendisse vestibulum augue sem, a posuere diam laoreet et. Mauris diam nulla, consequat non tempus sit amet, vehicula eget risus. Ut eu orci eu nulla aliquet viverra.s',
         title: 'Help',
-        name: 'Elliot'
+        name: 'Omar Ksibati',
+        active_help:true        
     })
 })
 

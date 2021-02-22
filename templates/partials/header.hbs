@@ -1,7 +1,17 @@
-<header>
-    <h1>{{title}}</h1>
 
-    <a href="/">Weather</a>
-    <a href="/about">About</a>
-    <a href="/help">Help</a>
-</header>
+
+    <div>
+      <h3 class="float-md-start mb-0">{{title}}</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a 
+        class="nav-link {{#if active_index}} active {{/if}}" aria-current="page" href="/">Weather</a>
+        <a 
+        class="nav-link {{#if active_about}} active {{/if}}" 
+        href="/about">About</a>
+        <a 
+        class="nav-link {{#if active_help}} active {{/if}}" 
+        href="/help">Help</a>
+      </nav>
+    </div>
+
+  
